@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+>
+
+    <application
+            android:allowBackup="true"
+            android:fullBackupContent="@xml/backup_rules"
+            tools:targetApi="31"
+            android:dataExtractionRules="@xml/data_extraction_rules"
+            android:label="@string/app_name"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.Hdmi">
+        <meta-data
+                android:name="xposedmodule"
+                android:value="true" />
+        <meta-data
+                android:name="xposeddescription"
+                android:value="直接允许一加13通过USB一线通连接外部显示器,无需二次确认,请开启并勾选com.android.systemui后重启,有问题请反馈至https://github.com/dixtdf/dixtdf.github.io/issues" />
+        <meta-data
+                android:name="xposedminversion"
+                android:value="82" />
+    </application>
+
+</manifest>
