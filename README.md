@@ -1,5 +1,7 @@
 ## 直接允许一加13通过USB一线通连接外部显示器,无需二次确认
-请开启并勾选com.android.systemui后重启,一加13测试通过
+一加13 15.0.0.204、15.0.0.521 测试通过
+
+开启后不生效请重启
 
 ## 问题
 如果有问题可以到我的仓库https://github.com/dixtdf/dixtdf.github.io 提issue
