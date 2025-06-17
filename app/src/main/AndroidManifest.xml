@@ -18,7 +18,7 @@
                 android:value="true" />
         <meta-data
                 android:name="xposeddescription"
-                android:value="直接允许一加13通过USB一线通连接外部显示器,无需二次确认,开启后不生效请重启,有问题请反馈至https://github.com/dixtdf/dixtdf.github.io/issues" />
+                android:value="直接允许ColorOS通过USB一线通连接外部显示器,无需二次确认,开启后不生效请重启,有问题请反馈至https://github.com/dixtdf/dixtdf.github.io/issues" />
         <meta-data
                 android:name="xposedminversion"
                 android:value="82" />
